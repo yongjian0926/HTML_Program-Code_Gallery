@@ -1,1 +1,1 @@
-# HTML-Program-Gallery
+# HTML Program Gallery

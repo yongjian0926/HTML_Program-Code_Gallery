@@ -22,11 +22,6 @@
     <p class="p2">我喜欢阅读科技新闻和博客。</p>
     <p class="p2">我也爱好摄影</p>
     <p class="p1">这是我拍摄的部分照片</p>
-    <list>
-        <span><img src="e:\项目\前端网页开发\WebStorm项目\WSP1\2E8E2532-4BD2-4695-BECC-B1CD055482A4_1_105_c.jpeg" alt="示例图片1"></span>
-        <span><img src="e:\项目\前端网页开发\WebStorm项目\WSP1\D0539801-CD96-456E-9C51-C0FE83AE27E6_1_105_c.jpeg" alt="示例图片2"></span>
-        <samp><img src="e:\项目\前端网页开发\WebStorm项目\WSP1\F34574E9-EF2B-45F3-8F79-05FCF0C0B5AD_1_105_c.jpeg" alt="示例图片3"></samp>
-    </list>
     <p class="p1">我经常访问的网页</p>
     <hr>
 <img src="https://www.gov.cn/images/gtrs_logo_rt.png" alt="">

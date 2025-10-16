@@ -1,39 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>测试网页</title>
+    <meta charset="UTF-8">
+    <title>个人主页</title>
     <style>
-        .p1 {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color: blue;
-            font-size: 20px;
-        }
-        .p2 {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        .p1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 70pt;
             color: green;
-            font-size: 16px;
+        }
+        .p2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 60pt;
+            color: purple;
+        }
+        .p3{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30pt;
+            color:black;
         }
     </style>
 </head>
 <body>
-    <h1>欢迎来到测试网页</h1>
-    <p class="p1">这是一个用于测试的简单HTML页面。</p>
-    <p class="p2">我喜欢编程和学习新技术。</p>
-    <p class="p2">我喜欢阅读科技新闻和博客。</p>
-    <p class="p2">我也爱好摄影</p>
-    <p class="p1">这是我拍摄的部分照片</p>
-    <p class="p1">我经常访问的网页</p>
-    <hr>
-<img src="https://www.gov.cn/images/gtrs_logo_rt.png" alt="">
+<p class="p1">个人主页</p>
+<p class="p2">王涌鉴</p>
+<p class="p2">个人图片</p>
+<hr>
+<div class="box">
+    <div><img src="https://avatars.githubusercontent.com/u/236516342?v=4" height="518.5" width="388.83" alt=""></div>
+    <br>
+    <p class="p2">描述</p>
+    <p class="p3">王涌鉴，男，2006年9月26日生于北京</p>
+</div>
+<hr>
+<p class="p1">常访问的网站</p>
 <br>
-<span style="font-size: large; ">
+    <img src="https://www.gov.cn/images/gtrs_logo_rt.png" alt="">
+<br>
     <a href="https://www.gov.cn/" target="_blank">中华人民共和国中央人民政府（官网）</a>
-</span>
 <br>
 <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-Y-Desktop-CN-v2.png" height="256" width="512" alt="">
 <br>
-<span style="font-size: large; ">
-    <a href="https://www.tesla.cn" target="_blank">TESLA(中国）</a>
-</span>
+<a href="https://www.tesla.cn" target="_blank">TESLA(中国）</a>
+<br>
 </body>
 </html>

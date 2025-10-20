@@ -1,0 +1,27 @@
+<!DOCTYPE html html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>这是第一个网页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="description" content="这是一个包含标题的简单HTML页面">
+    <meta name="author" content="wyj">
+    <style>
+        p{
+            font-size: 32px;
+        }
+        span{
+            font-size: 48px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<p><span>无</span>中生有，</p>
+<p><span>暗</span>度陈仓。</p>
+<p><span>凭</span>空想象，</p>
+<p><span>凭</span>空捏造。</p>
+</body>
+</html>

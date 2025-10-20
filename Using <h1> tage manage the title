@@ -1,0 +1,20 @@
+<!DOCTYPE html html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>这是第一个网页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="description" content="这是一个包含标题的简单HTML页面">
+    <meta name="author" content="wyj">
+</head>
+<body>
+    <h1>这是标题1</h1>
+    <h2>这是标题1</h2>
+    <h3>这是标题3</h3>
+    <h4>这是标题4</h4>
+    <h5>这是标题5</h5>
+    <h6>这是标题6</h6>
+</body>
+</html>

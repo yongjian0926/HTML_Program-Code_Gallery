@@ -1,0 +1,31 @@
+<!DOCTYPE html html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>这是第一个网页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="description" content="这是一个包含标题的简单HTML页面">
+    <meta name="author" content="wyj">
+    <style>
+        h1{
+            color: blue;
+            font-size: 36px;
+        }
+        span{
+            color: red;
+            font-size: 48px;
+        }
+
+    </style>
+</head>
+<body>
+<h1>古诗： 春晓</h1>
+<p>作者：孟浩然</p>
+<p><strong>晓</strong>春眠不觉<span>晓</span>，</p>
+<p><strong>处</strong>处闻啼<span>鸟</span>。</p>
+<p><strong>夜</strong>来风雨<span>声</span>，</p>
+<p><strong>花</strong>落知多<span>少</span>。</p>
+</body>
+</html>

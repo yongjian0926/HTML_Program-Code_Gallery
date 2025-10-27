@@ -1,0 +1,54 @@
+<html lang=""><head>
+    <meta charset="UTF-8">
+    <title>这是第一个网页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="description" content="这是一个包含标题的简单HTML页面">
+    <meta name="author" content="wyj">
+</head>
+<body>
+
+    <h1 id="top">目录</h1>
+    <br>
+    <a href="#ch01">前往第一章</a>
+    <br>
+    <a href="#ch02">前往第二章</a>
+    <br>
+    <a href="#ch03">前往第三章</a>
+    <br>
+    <a href="#ch04">前往第四章</a>
+    <br>
+    <a href="#ch05">前往第五章</a>
+
+<br>
+<div id="ch01" style="margin: 20px auto; height: 700px; width: 1000px; background-color:yellow;">
+    第一章
+    <a href="#ch02">下一章</a>
+    <a href="#top">返回目录</a>
+</div>
+<div id="ch02" style="margin: 20px auto; height: 700px; width: 1000px; background-color:blue;">
+    第二章
+    <a href="#ch01">上一章</a>
+    <a href="#ch03">下一章</a>
+    <a href="#top">返回目录</a>
+</div>
+<div id="ch03" style="margin: 20px auto; height: 700px; width: 1000px; background-color:red;">
+    第三章
+    <a href="#ch02">上一章</a>
+    <a href="#ch04">下一章</a>
+    <a href="#top">返回目录</a>
+</div>
+<div id="ch04" style="margin: 20px auto; height: 700px; width: 1000px; background-color:green;">
+    第四章
+    <a href="#ch03">上一章</a>
+    <a href="#ch05">下一章</a>
+    <a href="#top">返回目录</a>
+</div>
+<div id="ch05" style="margin: 20px auto; height: 700px; width: 1000px; background-color:orange;">
+    第五章
+    <a href="#ch04">上一章</a>
+    <a href="#top">返回目录</a>
+</div>
+</body>
+</html>

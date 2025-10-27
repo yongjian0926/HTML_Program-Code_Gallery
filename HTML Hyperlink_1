@@ -1,0 +1,41 @@
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>这是第一个网页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="description" content="这是一个包含标题的简单HTML页面">
+    <meta name="author" content="wyj">
+    <style>
+        .p1{
+            color: green;
+            font-weight: bold;
+            font-size: 36px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px; /* Adds spacing between images */
+        }
+        .container img {
+            width: 30%; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <p class="p1">王涌鉴</p>
+    <img src="https://avatars.githubusercontent.com/u/236516342?v=4" alt="王涌鉴">
+    <p class="p1">唐纳德·特朗普</p>
+    <a href="https://baike.baidu.com/item/%E5%94%90%E7%BA%B3%E5%BE%B7%C2%B7%E7%89%B9%E6%9C%97%E6%99%AE/9916449?fromtitle=%E7%89%B9%E6%9C%97%E6%99%AE&fromid=2026108">唐纳德·特朗普的百度百科</a>
+    <img src="https://ts2.tc.mm.bing.net/th/id/OIP-C.cw1C8OMxMW75eL-3rKb_OgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="特朗普">
+    <p class="p1">户晨风</p>
+    <a href="https://baike.baidu.com/item/%E6%88%B7%E6%99%A8%E9%A3%8E/65777003" target="_blank">户晨风的百度百科</a>
+    <img src="https://ts1.tc.mm.bing.net/th/id/OIP-C.P51rxyjdo3Ew0DtGEEwhawHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" width="" alt="户晨风">
+    <hr>
+</body>
+</html>
+
+

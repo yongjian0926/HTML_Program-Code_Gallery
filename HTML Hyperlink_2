@@ -6,49 +6,87 @@
     <script src="script.js"></script>
     <meta name="description" content="这是一个包含标题的简单HTML页面">
     <meta name="author" content="wyj">
+    <style>
+        .p1{
+            font-size: 36px;
+        }
+        .p2{
+            font-size: 36px;
+            color: orange;
+        }
+        .p3{
+            font-size: 36px;
+            color: yellow;
+        }
+        .p4{
+            font-size: 36px;
+            color: blue;
+        }
+        .p5{
+            font-size: 36px;
+            color: red;
+        }
+    </style>
 </head>
 <body>
 
     <h1 id="top">目录</h1>
     <br>
-    <a href="#ch01">前往第一章</a>
+    <a href="#ch01">习近平和特朗普</a>
     <br>
-    <a href="#ch02">前往第二章</a>
+    <a href="#ch02">APEC会议</a>
     <br>
-    <a href="#ch03">前往第三章</a>
+    <a href="#ch03">习近平</a>
     <br>
-    <a href="#ch04">前往第四章</a>
+    <a href="#ch04">万圣节</a>
     <br>
-    <a href="#ch05">前往第五章</a>
+    <a href="#ch05">万圣节2</a>
 
 <br>
 <div id="ch01" style="margin: 20px auto; height: 700px; width: 1000px; background-color:yellow;">
-    第一章
+    <p class="p1">习近平和特朗普</p>
     <a href="#ch02">下一章</a>
     <a href="#top">返回目录</a>
+    <br>
+    <img src="https://www.whitehouse.gov/wp-content/uploads/2025/10/P20251029DT-2177.jpg" height="500" width="750" alt="">
+    <p class="p1">习近平和特朗普的握手合影</p>
+
 </div>
 <div id="ch02" style="margin: 20px auto; height: 700px; width: 1000px; background-color:blue;">
-    第二章
+    APEC会议
+    <p class="p2"></p>
     <a href="#ch01">上一章</a>
     <a href="#ch03">下一章</a>
     <a href="#top">返回目录</a>
+    <br>
+    <img src="https://www.whitehouse.gov/wp-content/uploads/2025/10/P20251029DT-2295.jpg" height="500" width="750" alt="">
+    <p class="p2">APEC会议现场</p>
 </div>
 <div id="ch03" style="margin: 20px auto; height: 700px; width: 1000px; background-color:red;">
-    第三章
+    <p class="p3">习近平</p>
     <a href="#ch02">上一章</a>
     <a href="#ch04">下一章</a>
     <a href="#top">返回目录</a>
+    <br>
+    <img src="https://www.whitehouse.gov/wp-content/uploads/2025/10/P20251029DT-2277.jpg" height="500" width="750" alt="">
+    <p class="p3">APEC会议上的习近平</p>
 </div>
 <div id="ch04" style="margin: 20px auto; height: 700px; width: 1000px; background-color:green;">
-    第四章
+    <p class="p4">万圣节</p>
     <a href="#ch03">上一章</a>
     <a href="#ch05">下一章</a>
     <a href="#top">返回目录</a>
+    <br>
+    <img src="https://www.whitehouse.gov/wp-content/uploads/2025/10/P20251030DT-1153.jpg" height="500" width="750" alt="">
+    <p class="p4">特朗普的万圣节假期</p>
 </div>
 <div id="ch05" style="margin: 20px auto; height: 700px; width: 1000px; background-color:orange;">
-    第五章
+    <p class="p5">万圣节2</p>
     <a href="#ch04">上一章</a>
     <a href="#top">返回目录</a>
+    <br>
+    <img src="https://www.whitehouse.gov/wp-content/uploads/2025/10/P20251030DT-0818.jpg" height="500" width="750" alt="">
+    <p class="p5">特朗普在万圣节假期分发糖果</p>
 </div>
 </body>
 </html>

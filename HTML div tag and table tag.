@@ -1,0 +1,42 @@
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>含有div标签的网页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="description" content="这是一个包含标题的简单HTML页面">
+    <meta name="author" content="wyj">
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td>照片</td>
+        <td>姓名</td>
+        <td>性别</td>
+        <td>年龄</td>
+        <td>国籍</td>
+        <td>户籍</td>
+        <td>学籍</td>
+    </tr>
+    <tr>
+        <td><img src="https://avatars.githubusercontent.com/u/236516342?v=4" height="200" width="150" alt="王涌鉴"></td>
+        <td>王涌鉴</td>
+        <td>男</td>
+        <td>19</td>
+        <td>中国</td>
+        <td>北京</td>
+        <td>首钢工学院</td>
+    </tr>
+    <tr>
+        <td><img src="https://ts1.tc.mm.bing.net/th/id/OIP-C.P51rxyjdo3Ew0DtGEEwhawHaLH?rs=1&amp;pid=ImgDetMain&amp;o=7&amp;rm=3" height="200" width="150" alt=""></td>
+        <td>户晨风</td>
+        <td>男</td>
+        <td>27</td>
+        <td>中国</td>
+        <td>未知</td>
+        <td>未知</td>
+    </tr>
+</table>
+</body>
+</html>

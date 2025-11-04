@@ -7,6 +7,24 @@
     <script src="script.js"></script>
     <meta name="description" content="这是一个包含标题的简单HTML页面">
     <meta name="author" content="wyj">
+    <style>
+        table {
+            width: 500px; /* 表格宽度 */
+            border-collapse: collapse; /* 合并边框 */
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #333; /* 单元格边框 */
+            padding: 10px; /* 单元格内边距 */
+            text-align: center; /* 水平居中 */
+        }
+        thead {
+            background-color: #f0f0f0; /* 表头背景色 */
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9; /* 偶数行背景色（隔行变色） */
+        }
+    </style>
 </head>
 <body>
 <table border="1">
@@ -18,6 +36,7 @@
         <td>国籍</td>
         <td>户籍</td>
         <td>学籍</td>
+        <td>联络方式</td>
     </tr>
     <tr>
         <td><img src="https://avatars.githubusercontent.com/u/236516342?v=4" height="200" width="150" alt="王涌鉴"></td>
@@ -27,6 +46,7 @@
         <td>中国</td>
         <td>北京</td>
         <td>首钢工学院</td>
+        <td>电话：18515370926</td>
     </tr>
     <tr>
         <td><img src="https://ts1.tc.mm.bing.net/th/id/OIP-C.P51rxyjdo3Ew0DtGEEwhawHaLH?rs=1&amp;pid=ImgDetMain&amp;o=7&amp;rm=3" height="200" width="150" alt=""></td>
@@ -34,6 +54,7 @@
         <td>男</td>
         <td>27</td>
         <td>中国</td>
+        <td>未知</td>
         <td>未知</td>
         <td>未知</td>
     </tr>
